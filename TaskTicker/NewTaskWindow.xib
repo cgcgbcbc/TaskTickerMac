@@ -33,11 +33,11 @@
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                             <objectValues>
+                                <string>0</string>
                                 <string>1</string>
                                 <string>2</string>
                                 <string>3</string>
                                 <string>4</string>
-                                <string>5</string>
                             </objectValues>
                         </comboBoxCell>
                     </comboBox>
