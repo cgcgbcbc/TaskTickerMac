@@ -18,6 +18,8 @@
 		8AB5A67E191E08A30072923A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB5A65D191E08A30072923A /* Cocoa.framework */; };
 		8AB5A686191E08A30072923A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5A684191E08A30072923A /* InfoPlist.strings */; };
 		8AB5A688191E08A30072923A /* TaskTickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5A687191E08A30072923A /* TaskTickerTests.m */; };
+		8AB5A692191E18AF0072923A /* NewTaskWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5A691191E18AF0072923A /* NewTaskWindow.xib */; };
+		8AB5A695191E1FA00072923A /* TTTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5A694191E1FA00072923A /* TTTaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		8AB5A683191E08A30072923A /* TaskTickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskTickerTests-Info.plist"; sourceTree = "<group>"; };
 		8AB5A685191E08A30072923A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AB5A687191E08A30072923A /* TaskTickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskTickerTests.m; sourceTree = "<group>"; };
+		8AB5A691191E18AF0072923A /* NewTaskWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTaskWindow.xib; sourceTree = "<group>"; };
+		8AB5A693191E1FA00072923A /* TTTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTaskViewController.h; sourceTree = "<group>"; };
+		8AB5A694191E1FA00072923A /* TTTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				8AB5A672191E08A30072923A /* MainMenu.xib */,
 				8AB5A675191E08A30072923A /* Images.xcassets */,
 				8AB5A664191E08A30072923A /* Supporting Files */,
+				8AB5A691191E18AF0072923A /* NewTaskWindow.xib */,
+				8AB5A693191E1FA00072923A /* TTTaskViewController.h */,
+				8AB5A694191E1FA00072923A /* TTTaskViewController.m */,
 			);
 			path = TaskTicker;
 			sourceTree = "<group>";
@@ -232,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB5A668191E08A30072923A /* InfoPlist.strings in Resources */,
+				8AB5A692191E18AF0072923A /* NewTaskWindow.xib in Resources */,
 				8AB5A676191E08A30072923A /* Images.xcassets in Resources */,
 				8AB5A66E191E08A30072923A /* Credits.rtf in Resources */,
 				8AB5A674191E08A30072923A /* MainMenu.xib in Resources */,
@@ -254,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB5A671191E08A30072923A /* TTAppDelegate.m in Sources */,
+				8AB5A695191E1FA00072923A /* TTTaskViewController.m in Sources */,
 				8AB5A66A191E08A30072923A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

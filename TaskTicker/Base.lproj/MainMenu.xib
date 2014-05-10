@@ -21,6 +21,9 @@
             <items>
                 <menuItem title="Add a new task ticker..." id="bAR-4I-7zD">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="createTask:" target="Voe-Tx-rLC" id="VjS-Mv-DoH"/>
+                    </connections>
                 </menuItem>
                 <menuItem title="Quit" id="KHF-Ed-yTP">
                     <modifierMask key="keyEquivalentModifierMask"/>

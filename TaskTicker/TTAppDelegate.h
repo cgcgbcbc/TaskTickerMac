@@ -12,5 +12,7 @@
 
 @property (strong) IBOutlet NSMenu *statusMenu;
 - (IBAction)quit:(id)sender;
+- (IBAction)createTask:(id)sender;
 @property (strong) NSStatusItem *statusItem;
+@property (strong) NSWindowController *taskWindowController;
 @end
