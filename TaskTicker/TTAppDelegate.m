@@ -14,7 +14,7 @@
     [super awakeFromNib];
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
-    [statusItem setTitle:@"Status"];
+    [statusItem setTitle:@"Task"];
     [statusItem setHighlightMode:YES];
 }
 
@@ -23,4 +23,8 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)quit:(id)sender {
+    
+    [NSApp performSelector:@selector(terminate:) withObject:nil afterDelay:0.0];
+}
 @end

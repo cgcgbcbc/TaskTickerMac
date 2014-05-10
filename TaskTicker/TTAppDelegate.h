@@ -11,5 +11,6 @@
 @interface TTAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (strong) IBOutlet NSMenu *statusMenu;
+- (IBAction)quit:(id)sender;
 @property (strong) NSStatusItem *statusItem;
 @end

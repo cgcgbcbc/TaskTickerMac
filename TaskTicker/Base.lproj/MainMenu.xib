@@ -19,14 +19,14 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="OYX-ZI-0OQ">
             <items>
-                <menuItem title="Item 1" id="bAR-4I-7zD">
+                <menuItem title="Add a new task ticker..." id="bAR-4I-7zD">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
-                <menuItem title="Item 2" id="VO9-bU-6IJ">
+                <menuItem title="Quit" id="KHF-Ed-yTP">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                </menuItem>
-                <menuItem title="Item 3" id="Fgo-SC-28o">
-                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quit:" target="Voe-Tx-rLC" id="xNa-zX-s6r"/>
+                    </connections>
                 </menuItem>
             </items>
         </menu>
