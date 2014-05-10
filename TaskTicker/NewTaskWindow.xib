@@ -98,6 +98,8 @@
         </window>
         <viewController id="Jy6-pq-APJ" customClass="TTTaskViewController">
             <connections>
+                <outlet property="hourBox" destination="2fn-bP-rLf" id="Pqh-B4-JZX"/>
+                <outlet property="minuteBox" destination="85z-rC-TxK" id="zWB-52-fI5"/>
                 <outlet property="view" destination="EiT-Mj-1SZ" id="kgg-Nw-ZSL"/>
             </connections>
         </viewController>

@@ -10,5 +10,7 @@
 
 @interface TTTaskViewController : NSViewController
 - (IBAction)startTask:(id)sender;
+@property (strong) IBOutlet NSComboBox *hourBox;
+@property (strong) IBOutlet NSComboBox *minuteBox;
 
 @end
