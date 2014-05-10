@@ -10,6 +10,6 @@
 
 @interface TTAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
-
+@property (strong) IBOutlet NSMenu *statusMenu;
+@property (strong) NSStatusItem *statusItem;
 @end
