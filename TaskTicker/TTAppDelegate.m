@@ -65,6 +65,6 @@
     self.seconds = 0;
     NSTimer* timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(countDown:) userInfo:nil repeats:YES];
     NSRunLoop *countLoop = [NSRunLoop currentRunLoop];
-    [countLoop addTimer:timer forMode:NSDefaultRunLoopMode];
+    [countLoop addTimer:timer forMode:NSEventTrackingRunLoopMode];
 }
 @end
